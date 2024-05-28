@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Fire-Watch",
+    "link": "https://github.com/Aradhya-Tripathi/fire-watch",
+    "image": "",
+    "description": "Realtime tracking and analysis of IOT devices, with realtime notifications using Django Channels and web socket APIs.",
+    "technologies": ["python", "django"],
+    "tags": ["web", "iot", "notifications"]
+  },
+  {
+    "id": 2,
+    "name": "Frappe",
+    "link": "https://github.com/Aradhya-Tripathi/frappe",
+    "image": "",
+    "description": "Low code web framework for real world applications, in Python and Javascript.",
+    "technologies": ["python", "javascript"],
+    "tags": ["cms", "web-framework"]
+  },
+  {
+    "id": 3,
+    "name": "Bench",
+    "link": "https://github.com/Aradhya-Tripathi/bench",
+    "image": "",
+    "description": "CLI to manage Multi-tenant deployments for Frappe apps.",
+    "technologies": ["python", "bash"],
+    "tags": ["cli", "frappe-bench", "bench-setup"]
+  },
+  {
+    "id": 5,
+    "name": "Trogon",
+    "link": "https://github.com/Aradhya-Tripathi/trogon",
+    "image": "",
+    "description": "The lean application framework for Python. Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser.",
+    "technologies": ["python"],
+    "tags": ["cli", "terminal", "tui", "rich"]
+  },
+  {
+    "id": 6,
+    "name": "GithubSRM",
+    "link": "https://github.com/Aradhya-Tripathi/githubsrm",
+    "image": "",
+    "description": "Platform for open source project management and open source project automation.",
+    "technologies": ["python", "django", "react", "nosql", "aws"],
+    "tags": ["web", "git", "open-source"]
+  }
+]
