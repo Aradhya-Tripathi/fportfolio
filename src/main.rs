@@ -10,17 +10,17 @@ async fn main() {
             "/",
             catchers![
                 controllers::handlers::handle_404,
-                controllers::handlers::handle_500
+                controllers::handlers::handle_500,
+                controllers::handlers::handle_422
             ],
         )
         .mount(
             "/",
             rocket::routes![
-                controllers::portfolio::index,
                 controllers::portfolio::projects,
                 controllers::portfolio::query,
                 controllers::portfolio::health,
-                controllers::portfolio::summarize_projects,
+                controllers::portfolio::summarize_project, // Hover support.
             ],
         )
         .launch()

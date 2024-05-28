@@ -19,3 +19,11 @@ pub fn handle_500() -> (Status, Value) {
         json!({"error": "server error!"}),
     )
 }
+
+#[catch(422)]
+pub fn handle_422() -> (Status, Value) {
+    (
+        Status::UnprocessableEntity,
+        json!({"error": "invalid data!"}),
+    )
+}
